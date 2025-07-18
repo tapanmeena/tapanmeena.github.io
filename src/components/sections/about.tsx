@@ -1,5 +1,5 @@
-import { motion } from "framer-motion"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { motion } from "framer-motion";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export function AboutSection() {
   return (
@@ -13,43 +13,15 @@ export function AboutSection() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Learn more about my professional journey and expertise
-          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Learn more about my professional journey and expertise</p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            viewport={{ once: true }}
-            className="md:col-span-1"
-          >
-            <Card className="h-full">
-              <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
-                <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
-                  <img 
-                    src="/profile_image.jpg" 
-                    alt="Tapan Meena - Professional Photo"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold">Tapan Meena</h3>
-                  <p className="text-muted-foreground">Software Engineer</p>
-                  <p className="text-sm text-muted-foreground mt-2">MAQ Software, Hyderabad</p>
-                </div>
-              </CardContent>
-            </Card>
-          </motion.div>
-
+        <div className="grid md:grid-cols-2 gap-8">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
             viewport={{ once: true }}
-            className="md:col-span-1"
           >
             <Card className="h-full">
               <CardHeader>
@@ -57,18 +29,17 @@ export function AboutSection() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-muted-foreground leading-relaxed">
-                  Senior Software Engineer with <strong>5+ years</strong> of experience in designing and developing 
-                  scalable software solutions. Currently working at <strong>MAQ Software</strong>, where I lead 
-                  cross-functional teams and drive technical excellence across projects.
+                  Senior Software Engineer with <strong>5+ years</strong> of experience in designing and developing scalable software solutions.
+                  Currently working at <strong>MAQ Software</strong>, where I lead cross-functional teams and drive technical excellence across
+                  projects.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  My expertise spans across cloud technologies, automation, and modern development practices. 
-                  I'm passionate about mentoring junior developers and implementing best practices that enhance 
-                  team productivity and code quality.
+                  My expertise spans across cloud technologies, automation, and modern development practices. I'm passionate about mentoring junior
+                  developers and implementing best practices that enhance team productivity and code quality.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  I thrive in collaborative environments and enjoy solving complex technical challenges 
-                  while maintaining a focus on user experience and business outcomes.
+                  I thrive in collaborative environments and enjoy solving complex technical challenges while maintaining a focus on user experience
+                  and business outcomes.
                 </p>
               </CardContent>
             </Card>
@@ -79,7 +50,6 @@ export function AboutSection() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             viewport={{ once: true }}
-            className="md:col-span-1"
           >
             <Card className="h-full">
               <CardHeader>
@@ -94,7 +64,7 @@ export function AboutSection() {
                     "Proven track record in delivering scalable solutions",
                     "Experience with modern development practices",
                     "Passionate about mentoring and knowledge sharing",
-                    "Focused on continuous learning and improvement"
+                    "Focused on continuous learning and improvement",
                   ].map((highlight, index) => (
                     <motion.li
                       key={index}
@@ -115,5 +85,5 @@ export function AboutSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
