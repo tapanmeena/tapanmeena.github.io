@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X, Github, Linkedin, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import { ThemeToggle } from "./theme-toggle"
 
 const navItems = [
   { label: "About", href: "#about" },
@@ -87,6 +88,7 @@ export function Navigation() {
 
           {/* Desktop Social Links */}
           <div className="hidden md:flex items-center gap-2">
+            <ThemeToggle />
             <Button asChild variant="ghost" size="icon">
               <a 
                 href="https://github.com/tapanmeena" 
@@ -172,6 +174,7 @@ export function Navigation() {
 
                   <div className="pt-4 border-t">
                     <div className="flex items-center gap-2 mb-4">
+                      <ThemeToggle />
                       <Button asChild variant="ghost" size="icon">
                         <a 
                           href="https://github.com/tapanmeena" 

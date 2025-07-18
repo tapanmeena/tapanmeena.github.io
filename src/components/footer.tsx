@@ -105,7 +105,7 @@ export function Footer() {
           </div>
           <div className="flex items-center gap-4">
             <a 
-              href="https://github.com/tapanmeena/portfolio" 
+              href="https://github.com/tapanmeena/tapanmeena.github.io" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-foreground transition-colors"

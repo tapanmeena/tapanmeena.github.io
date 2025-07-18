@@ -2,8 +2,6 @@
 
 A modern, responsive portfolio website built with React, TypeScript, Tailwind CSS, and ShadCN UI components.
 
-![Portfolio Preview](https://via.placeholder.com/800x400/6366f1/ffffff?text=Tapan+Meena+Portfolio)
-
 ## 🚀 Features
 
 - **Modern Design**: Clean, professional design with smooth animations
@@ -59,7 +57,7 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/tapanmeena/portfolio.git
+git clone https://github.com/tapanmeena/tapanmeena.github.io.git
 cd portfolio
 ```
 
@@ -99,7 +97,7 @@ npm run build
 npm run deploy
 ```
 
-The site will be available at `https://tapanmeena.github.io/new/`
+The site will be available at `https://tapanmeena.github.io`
 
 ### Manual Deployment
 
@@ -136,8 +134,8 @@ Update the content in the respective section components:
 
 ## 📧 Contact
 
-- **Email**: tapan.meena@outlook.com
-- **LinkedIn**: [linkedin.com/in/tapanmeena97](https://linkedin.com/in/tapanmeena97)
+- **Email**: tapanmeena1998@gmail.com
+- **LinkedIn**: [linkedin.com/in/tapanmeena](https://linkedin.com/in/tapanmeena)
 - **GitHub**: [github.com/tapanmeena](https://github.com/tapanmeena)
 
 ## 📄 License
@@ -147,43 +145,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 Built with ❤️ by [Tapan Meena](https://github.com/tapanmeena)
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```

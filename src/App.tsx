@@ -1,3 +1,4 @@
+import { ThemeProvider } from "./components/theme-provider"
 import { Navigation } from "./components/navigation"
 import { HeroSection } from "./components/sections/hero"
 import { AboutSection } from "./components/sections/about"
@@ -9,18 +10,20 @@ import { Footer } from "./components/footer"
 
 function App() {
   return (
-    <div className="w-full min-h-screen bg-background text-foreground">
-      <Navigation />
-      <main className="w-full">
-        <HeroSection />
-        <AboutSection />
-        <ExperienceSection />
-        <SkillsSection />
-        <ProjectsSection />
-        <ContactSection />
-      </main>
-      <Footer />
-    </div>
+    <ThemeProvider defaultTheme="light" storageKey="portfolio-theme">
+      <div className="w-full min-h-screen bg-background text-foreground">
+        <Navigation />
+        <main className="w-full">
+          <HeroSection />
+          <AboutSection />
+          <ExperienceSection />
+          <SkillsSection />
+          <ProjectsSection />
+          <ContactSection />
+        </main>
+        <Footer />
+      </div>
+    </ThemeProvider>
   )
 }
 

@@ -14,31 +14,31 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: "Senior Software Engineer",
+    title: "Software Engineer",
     company: "MAQ Software",
     location: "Hyderabad, India",
-    period: "2021 - Present",
+    period: "July 2020 - Present",
     description: [
-      "Lead cross-functional teams in designing and developing scalable software solutions",
-      "Mentor junior developers and conduct technical training sessions",
-      "Drive implementation of best practices in code quality and development processes",
-      "Collaborate with stakeholders to define technical requirements and architecture decisions",
-      "Optimize application performance and ensure system reliability"
+      "Develop and maintain scalable web applications using modern technologies",
+      "Collaborate with cross-functional teams to deliver high-quality software solutions",
+      "Implement best practices in code quality, testing, and development processes",
+      "Work with cloud technologies and DevOps practices to ensure reliable deployments",
+      "Participate in code reviews and mentor junior team members"
     ],
-    technologies: ["Azure", "C#", ".NET", "React", "TypeScript", "DevOps", "Microservices"]
+    technologies: ["Azure", "C#", ".NET", "React", "TypeScript", "JavaScript", "SQL Server", "DevOps"]
   },
   {
-    title: "Software Engineer",
-    company: "Previous Company",
+    title: "Technical Intern",
+    company: "McAfee",
     location: "India",
-    period: "2019 - 2021",
+    period: "May 2019 - July 2019",
     description: [
-      "Developed and maintained web applications using modern technologies",
-      "Participated in agile development processes and sprint planning",
-      "Collaborated with design and product teams to implement user-centric features",
-      "Contributed to code reviews and technical documentation"
+      "Worked as a technical intern gaining hands-on experience in cybersecurity technologies",
+      "Contributed to software development projects and learned industry best practices",
+      "Collaborated with senior developers and gained exposure to enterprise-level software development",
+      "Participated in team meetings and contributed to technical discussions"
     ],
-    technologies: ["JavaScript", "React", "Node.js", "SQL", "Git", "REST APIs"]
+    technologies: ["Java", "Python", "Software Development", "Cybersecurity", "Team Collaboration"]
   }
 ]
 
