@@ -12,8 +12,12 @@ export function Footer() {
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary/60 rounded-lg flex items-center justify-center text-primary-foreground font-bold">
-                TM
+              <div className="w-8 h-8 rounded-lg overflow-hidden border border-primary/20">
+                <img 
+                  src="/avatar.png" 
+                  alt="Tapan Meena"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <span className="text-xl font-bold">Tapan Meena</span>
             </div>

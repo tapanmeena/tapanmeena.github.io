@@ -61,8 +61,12 @@ export function Navigation() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary/60 rounded-lg flex items-center justify-center text-primary-foreground font-bold">
-              TM
+            <div className="w-8 h-8 rounded-lg overflow-hidden border border-primary/20">
+              <img 
+                src="/avatar.png" 
+                alt="Tapan Meena"
+                className="w-full h-full object-cover"
+              />
             </div>
             <span className="hidden sm:block">Tapan Meena</span>
           </motion.a>

@@ -18,9 +18,13 @@ export function HeroSection() {
                 initial={{ scale: 0.8 }}
                 animate={{ scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="w-32 h-32 mx-auto bg-gradient-to-br from-primary to-primary/60 rounded-full flex items-center justify-center text-4xl font-bold text-primary-foreground"
+                className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-primary/20 shadow-lg"
               >
-                TM
+                <img 
+                  src="/avatar.png" 
+                  alt="Tapan Meena - Software Engineer"
+                  className="w-full h-full object-cover"
+                />
               </motion.div>
               
               <motion.div
